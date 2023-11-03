@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Al Brachella Drumal";
+    src: 
+        local("Al Brachella Drumal"), 
+        url("../res/fonts/Al_Brachella_Drumal_Regular.ttf") format("TrueType");
+	font-display: swap;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Al Brachella Drumal";
+    /*background-image: url(../res/img/watercolor-paper-texture-11.avif);*/
+}
+
+h1 {
+    color: #9B0909;
+    font-size: 65px;
+}
+
+.heading-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.back-container {
+    display: block;
+    border: #9B0909 1px solid;
+    background: #9B0909;
+    align-content: center;
+    justify-content: center;
+    width: 75px;
+    padding: 10px;
+    border-radius: 100% 25% 25% 100%;
+    margin-left: 15px;
+	box-shadow: 5px -5px 15px 5px #000000;
+}
+
+.back-container > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px
+}
+
+.gallery-container {
+    display: block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.gallery-first-row,
+.gallery-second-row,
+.gallery-third-row,
+.gallery-fourth-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.gallery-first-row img,
+.gallery-second-row img,
+.gallery-third-row img,
+.gallery-fourth-row img {
+    width: 520px;
+    height: 450px;
+    box-shadow: 0px 0px 18px 5px #000000
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}

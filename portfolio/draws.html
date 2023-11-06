@@ -15,25 +15,33 @@
         <h1 class="heading">Dessins | Galerie</h1>
     </div>
 
+   
     <div class="back-container">
-        <a href="index.php#port">Retour</a>
+        <a class="btn-acc" href="index.php#port">
+            <img height="80" width="80" src="res/img/Wax_Seal_fleche_retour.avif">
+        </a>
     </div>
+
     <div class="gallery-container">
         <div class="gallery-first-row">
-            <img height="450" width="520" src="res/draws/Automne.avif">
-            <img height="450" width="520" src="res/draws/Citrouille-Halloween.avif">
-            <img height="450" width="520" src="res/draws/Papillon.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Automne.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Citrouille-Halloween.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Papillon.avif">
         </div>
 
         <div class="gallery-second-row">
-            <img height="450" width="520" src="res/draws/Illustration-sans-titre-1.avif">
-            <img height="450" width="520" src="res/draws/Motif-fleur.avif">
-            <img height="450" width="520" src="res/draws/Sucette.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Illustration-sans-titre-1.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Motif-fleur.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Sucette.avif">
         </div>
 
         <div class="gallery-third-row">
-            <img height="450" width="520" src="res/draws/Sucette.avif">
+            <img class="thumbnail" height="450" width="520" src="res/draws/Sucette.avif">
         </div>
+        <div id="myModal" class="modal">
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div> 
     </div>
 
     <footer>
@@ -46,5 +54,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="app.js"></script>
+    <script src="images.js"></script>
 </body>
 </html>

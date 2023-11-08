@@ -16,13 +16,10 @@ for (var i = 0; i<img.length; i++) {
     }
 }
 
- 
-//if (modal) {
 modal.onclick = function() {
     img01.className += " out";
     setTimeout(function() {
         modal.style.display = "none";
         img01.className = "modal-content";
     }, 400);
-}    
-//}
+}
